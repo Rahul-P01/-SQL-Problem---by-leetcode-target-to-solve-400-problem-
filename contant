@@ -1,0 +1,38 @@
+ ### Problem Title
+Short name of the problem (e.g., 1757. Recyclable and Low Fat Products).
+
+Problem Description
+One‑paragraph summary of what the problem is asking.
+
+Include the key requirements (e.g., filter products that are both low fat and recyclable).
+
+Schema & Input
+Table definitions (columns, types, constraints).
+
+Example input data.
+
+Expected Output
+Show the required result set for the example input.
+
+Helps readers verify correctness.
+
+My Approach
+Explain your thought process in plain language.
+
+Mention challenges you faced and how you solved them.
+
+Highlight SQL concepts used (e.g., WHERE, JOIN, GROUP BY).
+
+## Solution Query
+sql
+-- Clean, formatted SQL query
+SELECT product_id
+FROM Products
+WHERE low_fats = 'Y' AND recyclable = 'Y';
+Learning Outcome
+What you learned from solving this problem.
+
+Example: “Strengthened filtering logic with multiple conditions.”
+
+Tags / Concepts
+Keywords like: Filtering, WHERE clause, Logical operators, Basic SELECT.
